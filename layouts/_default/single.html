@@ -1,0 +1,8 @@
+{{ define "main" }}
+  <article class="article-item" style="border-top:1px solid var(--border); border-bottom:none; padding-top:40px;">
+    <span class="article-date">{{ .Date.Format "02 January 2006" }}</span>
+    <h1 class="article-title" style="font-size:28px;">{{ .Title }}</h1>
+    <div class="article-content">{{ .Content }}</div>
+  </article>
+  <p style="margin-top:32px;"><a class="article-title-link" style="font-size:14px; color:var(--text-secondary);" href="{{ "/" | relURL }}">← Tutti gli articoli</a></p>
+{{ end }}
