@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 	<channel>
-		<title>msmbrc</title>
+		<title>MSMBRC</title>
 		<link>http://localhost:1313/</link>
-		<description>Recent content on msmbrc</description>
+		<description>Recent content on MSMBRC</description>
 		<generator>Hugo</generator>
 		<language>it-it</language>
 		
@@ -14,11 +14,11 @@
 		
 			<atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
 			<item>
-				<title>Il Mio Primo Post</title>
+				<title>What a grind</title>
 				<link>http://localhost:1313/posts/il-mio-primo-post/</link>
 				<pubDate>Thu, 02 Jul 2026 21:15:47 +0200</pubDate>
 				<guid>http://localhost:1313/posts/il-mio-primo-post/</guid>
-				<description>&lt;p&gt;testo di prova&lt;/p&gt;</description>
+				<description>&lt;p&gt;Since I said I wanted to get back to properly mastering drawing like I used to, I signed up for a drawing course and decided to start with a black-and-white copy of a face. God, what a grind.&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/uploads/20200703.webp&#34; alt=&#34;Descrizione dell&amp;rsquo;immagine&#34;&gt;&lt;/p&gt;</description>
 			</item>
 	</channel>
 </rss>
