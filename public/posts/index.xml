@@ -10,14 +10,21 @@
 		
 		
 		
-			<lastBuildDate>Thu, 02 Jul 2026 21:15:47 +0200</lastBuildDate>
+			<lastBuildDate>Sat, 04 Jul 2026 12:00:00 +0200</lastBuildDate>
 		
 			<atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
 			<item>
+				<title>Drawing with Guybrush Threepwood</title>
+				<link>http://localhost:1313/posts/drawingwithguybrushthreepwood/</link>
+				<pubDate>Sat, 04 Jul 2026 12:00:00 +0200</pubDate>
+				<guid>http://localhost:1313/posts/drawingwithguybrushthreepwood/</guid>
+				<description>&lt;p&gt;Day by day I&amp;rsquo;m realizing that to actually feel motivated to draw, I need at least one clear idea or a specific subject to work on. The Jim Carrey face I did last Monday in class is a good way to get back into it, but it&amp;rsquo;s not enough for me.&lt;/p&gt;&#xA;&lt;p&gt;I&amp;rsquo;ve decided my next real project will be Guybrush Threepwood, a character from a &amp;rsquo;90s adventure game set in a pirate world with a bit of voodoo magic. So while I finish the Jim Carrey one, I&amp;rsquo;ll spend some sessions studying pirate clothing and weird voodoo items, which are a big part of the game.&lt;/p&gt;</description>
+			</item>
+			<item>
 				<title>What a grind</title>
-				<link>http://localhost:1313/posts/il-mio-primo-post/</link>
+				<link>http://localhost:1313/posts/whatagrind-copia/</link>
 				<pubDate>Thu, 02 Jul 2026 21:15:47 +0200</pubDate>
-				<guid>http://localhost:1313/posts/il-mio-primo-post/</guid>
+				<guid>http://localhost:1313/posts/whatagrind-copia/</guid>
 				<description>&lt;p&gt;Since I said I wanted to get back to properly mastering drawing like I used to, I signed up for a drawing course and decided to start with a black-and-white copy of a face. God, what a grind.&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/uploads/20200703.webp&#34; alt=&#34;Descrizione dell&amp;rsquo;immagine&#34;&gt;&lt;/p&gt;</description>
 			</item>
 	</channel>
