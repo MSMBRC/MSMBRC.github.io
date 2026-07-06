@@ -1,5 +1,5 @@
 ---
-title: "Progress on My Jim Carrey Portrait"
+title: "Progress on my Jim Carrey portrait"
 date: 2026-07-06
 draft: false
 ---
