@@ -10,9 +10,16 @@
 		
 		
 		
-			<lastBuildDate>Sat, 04 Jul 2026 12:00:00 +0200</lastBuildDate>
+			<lastBuildDate>Mon, 06 Jul 2026 00:00:00 +0000</lastBuildDate>
 		
 			<atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>Progress on My Jim Carrey Portrait</title>
+				<link>http://localhost:1313/posts/progressonmyjimcarrey/</link>
+				<pubDate>Mon, 06 Jul 2026 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/posts/progressonmyjimcarrey/</guid>
+				<description>&lt;p&gt;Second lesson at the course. I kept working on my Jim Carrey, first fixing the eye spacing because they were way too close. I spent a ton of time on the eyes since they&amp;rsquo;re super expressive and really characteristic in this photo. I also adjusted the lower part of the face — from under the nose to the chin — because that was too narrow too.&lt;/p&gt;&#xA;&lt;p&gt;After that I could finally start on the shading: I put down a first light layer over the whole face, then gradually added more pencil only on the darker areas, and kept building it up darker and darker until I got this result. I think I&amp;rsquo;ll finish it in the next class, but unfortunately that&amp;rsquo;s in at least two weeks. I really need to make better use of the time between lessons. Maybe I&amp;rsquo;ll start my Guybrush on my own in the meantime.&lt;/p&gt;</description>
+			</item>
 			<item>
 				<title>Drawing with Guybrush Threepwood</title>
 				<link>http://localhost:1313/posts/drawingwithguybrushthreepwood/</link>
