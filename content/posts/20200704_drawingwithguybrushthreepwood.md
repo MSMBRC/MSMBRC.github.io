@@ -6,6 +6,4 @@ draft: false
 
 ![](/uploads/20260704.webp)
 
-Day by day I'm realizing that to actually feel motivated to draw, I need at least one clear idea or a specific subject to work on. The Jim Carrey face I did last Monday in class is a good way to get back into it, but it's not enough for me.
-
-I've decided my next real project will be Guybrush Threepwood, a character from a '90s adventure game set in a pirate world with a bit of voodoo magic. So while I finish the Jim Carrey one, I'll spend some sessions studying pirate clothing and weird voodoo items, which are a big part of the game.
+I'm realizing I need a clear subject to feel motivated. My next real project will be Guybrush Threepwood, a character from a '90s pirate adventure game with a touch of voodoo. So while I finish the Jim Carrey, I'll spend some sessions studying pirate clothing and weird voodoo items.
