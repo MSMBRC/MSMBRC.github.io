@@ -10,21 +10,21 @@
 		
 		
 		
-			<lastBuildDate>Tue, 21 Jul 2026 00:00:00 +0000</lastBuildDate>
+			<lastBuildDate>Wed, 29 Jul 2026 00:00:00 +0000</lastBuildDate>
 		
 			<atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>Jim is done</title>
+				<link>http://localhost:1313/posts/20200729_jimisdone/</link>
+				<pubDate>Wed, 29 Jul 2026 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/posts/20200729_jimisdone/</guid>
+				<description>&lt;p&gt;&lt;img src=&#34;http://localhost:1313/uploads/20260729.webp&#34; alt=&#34;&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;Jim’s finished. The more I look at it the more flaws I see, but it doesn’t matter — it’s already time to think about the next drawing: the mighty pirate.&lt;/p&gt;</description>
+			</item>
 			<item>
 				<title>Guybrush</title>
 				<link>http://localhost:1313/posts/20200721_guybrush/</link>
 				<pubDate>Tue, 21 Jul 2026 00:00:00 +0000</pubDate>
 				<guid>http://localhost:1313/posts/20200721_guybrush/</guid>
-				<description>&lt;p&gt;&lt;img src=&#34;http://localhost:1313/uploads/20260721.webp&#34; alt=&#34;&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;Back again — and I&amp;rsquo;ve already broken my promise to draw more during the week. Here&amp;rsquo;s a quick sketch of how Guybrush from Monkey Island might look, the one I want to tackle after my Jim Carrey. The tricky part will be that I have no real reference photo to copy the features and shading from.&lt;/p&gt;</description>
-			</item>
-			<item>
-				<title>Guybrush</title>
-				<link>http://localhost:1313/posts/20200729_jimfinished/</link>
-				<pubDate>Tue, 21 Jul 2026 00:00:00 +0000</pubDate>
-				<guid>http://localhost:1313/posts/20200729_jimfinished/</guid>
 				<description>&lt;p&gt;&lt;img src=&#34;http://localhost:1313/uploads/20260721.webp&#34; alt=&#34;&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;Back again — and I&amp;rsquo;ve already broken my promise to draw more during the week. Here&amp;rsquo;s a quick sketch of how Guybrush from Monkey Island might look, the one I want to tackle after my Jim Carrey. The tricky part will be that I have no real reference photo to copy the features and shading from.&lt;/p&gt;</description>
 			</item>
 			<item>
