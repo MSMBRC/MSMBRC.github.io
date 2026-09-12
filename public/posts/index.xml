@@ -1,66 +1,8 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-	<channel>
-		<title>Posts on MSMBRC</title>
-		<link>http://localhost:1313/posts/</link>
-		<description>Recent content in Posts on MSMBRC</description>
-		<generator>Hugo</generator>
-		<language>it-it</language>
-		
-		
-		
-		
-			<lastBuildDate>Sat, 29 Aug 2026 00:00:00 +0000</lastBuildDate>
-		
-			<atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
-			<item>
-				<title>Guybrush in watercolor</title>
-				<link>http://localhost:1313/posts/202600907_circe/</link>
-				<pubDate>Sat, 29 Aug 2026 00:00:00 +0000</pubDate>
-				<guid>http://localhost:1313/posts/202600907_circe/</guid>
-				<description>&lt;p&gt;&lt;img src=&#34;http://localhost:1313/uploads/20260829.webp&#34; alt=&#34;&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;Guybrush colored with watercolor, using a no-blending technique. Room for improvement, but it’s okay.&lt;/p&gt;</description>
-			</item>
-			<item>
-				<title>Guybrush in watercolor</title>
-				<link>http://localhost:1313/posts/202608029_guy2/</link>
-				<pubDate>Sat, 29 Aug 2026 00:00:00 +0000</pubDate>
-				<guid>http://localhost:1313/posts/202608029_guy2/</guid>
-				<description>&lt;p&gt;&lt;img src=&#34;http://localhost:1313/uploads/20260829.webp&#34; alt=&#34;&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;Guybrush colored with watercolor, using a no-blending technique. Room for improvement, but it’s okay.&lt;/p&gt;</description>
-			</item>
-			<item>
-				<title>First shapes of my mighty pirate</title>
-				<link>http://localhost:1313/posts/20260803_guy/</link>
-				<pubDate>Mon, 03 Aug 2026 00:00:00 +0000</pubDate>
-				<guid>http://localhost:1313/posts/20260803_guy/</guid>
-				<description>&lt;p&gt;&lt;img src=&#34;http://localhost:1313/uploads/20260803.webp&#34; alt=&#34;&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;Second drawing. Starting from different references for pose, subject and details, I blocked in the first basic shapes of my mighty pirate.&lt;/p&gt;</description>
-			</item>
-			<item>
-				<title>Jim is done</title>
-				<link>http://localhost:1313/posts/20200729_jimisdone/</link>
-				<pubDate>Wed, 29 Jul 2026 00:00:00 +0000</pubDate>
-				<guid>http://localhost:1313/posts/20200729_jimisdone/</guid>
-				<description>&lt;p&gt;&lt;img src=&#34;http://localhost:1313/uploads/20260729.webp&#34; alt=&#34;&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;Jim’s finished. The more I look at it the more flaws I see, but it doesn’t matter — it’s already time to think about the next drawing: the mighty pirate.&lt;/p&gt;</description>
-			</item>
-			<item>
-				<title>Fat people &amp; hands</title>
-				<link>http://localhost:1313/posts/20200707_fatpeopleandhands/</link>
-				<pubDate>Tue, 07 Jul 2026 00:00:00 +0000</pubDate>
-				<guid>http://localhost:1313/posts/20200707_fatpeopleandhands/</guid>
-				<description>&lt;p&gt;&lt;img src=&#34;http://localhost:1313/uploads/20260707.webp&#34; alt=&#34;&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;I squeezed in some drawing practice during a work-from-home break, focusing on fat people and hands to push myself out of my comfort zone with less standard proportions. I learned how important the double chin is, and how key it is to nail the basic geometric shapes inside the subject first.&lt;/p&gt;</description>
-			</item>
-			<item>
-				<title>Progress on my Jim Carrey portrait</title>
-				<link>http://localhost:1313/posts/20200706_progressonmyjimcarrey/</link>
-				<pubDate>Mon, 06 Jul 2026 00:00:00 +0000</pubDate>
-				<guid>http://localhost:1313/posts/20200706_progressonmyjimcarrey/</guid>
-				<description>&lt;p&gt;&lt;img src=&#34;http://localhost:1313/uploads/20260706.webp&#34; alt=&#34;&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;Second class. I reworked the Jim Carrey — fixing the too-close eyes and the too-narrow lower face — then finally started shading, building from a light base up to darker layers. I&amp;rsquo;ll probably finish it next class, but that&amp;rsquo;s at least two frustrating weeks away.&lt;/p&gt;</description>
-			</item>
-			<item>
-				<title>What a grind</title>
-				<link>http://localhost:1313/posts/20200702_whatagrind/</link>
-				<pubDate>Thu, 02 Jul 2026 00:00:00 +0000</pubDate>
-				<guid>http://localhost:1313/posts/20200702_whatagrind/</guid>
-				<description>&lt;p&gt;&lt;img src=&#34;http://localhost:1313/uploads/20260703.webp&#34; alt=&#34;&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;Since I said I wanted to get back to properly mastering drawing like I used to, I signed up for a drawing course and decided to start with a black-and-white copy of a face. God, what a grind.&lt;/p&gt;</description>
-			</item>
-	</channel>
-</rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts on MSMBRC</title><link>https://msmbrc.github.io/posts/</link><description>Recent content in Posts on MSMBRC</description><generator>Hugo</generator><language>it-it</language><lastBuildDate>Mon, 07 Sep 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://msmbrc.github.io/posts/index.xml" rel="self" type="application/rss+xml"/><item><title>Circe</title><link>https://msmbrc.github.io/posts/202600907_circe/</link><pubDate>Mon, 07 Sep 2026 00:00:00 +0000</pubDate><guid>https://msmbrc.github.io/posts/202600907_circe/</guid><description>&lt;p&gt;&lt;img src="https://msmbrc.github.io/uploads/20260907.webp" alt=""&gt;&lt;/p&gt;
+&lt;p&gt;Work in progress of Circe the Sorceress from the &lt;em&gt;Odyssey&lt;/em&gt;, inspired by a drawing by Paolo Barbieri&lt;/p&gt;</description></item><item><title>Guybrush in watercolor</title><link>https://msmbrc.github.io/posts/202608029_guy2/</link><pubDate>Sat, 29 Aug 2026 00:00:00 +0000</pubDate><guid>https://msmbrc.github.io/posts/202608029_guy2/</guid><description>&lt;p&gt;&lt;img src="https://msmbrc.github.io/uploads/20260829.webp" alt=""&gt;&lt;/p&gt;
+&lt;p&gt;Guybrush colored with watercolor, using a no-blending technique. Room for improvement, but it’s okay.&lt;/p&gt;</description></item><item><title>First shapes of my mighty pirate</title><link>https://msmbrc.github.io/posts/20260803_guy/</link><pubDate>Mon, 03 Aug 2026 00:00:00 +0000</pubDate><guid>https://msmbrc.github.io/posts/20260803_guy/</guid><description>&lt;p&gt;&lt;img src="https://msmbrc.github.io/uploads/20260803.webp" alt=""&gt;&lt;/p&gt;
+&lt;p&gt;Second drawing. Starting from different references for pose, subject and details, I blocked in the first basic shapes of my mighty pirate.&lt;/p&gt;</description></item><item><title>Jim is done</title><link>https://msmbrc.github.io/posts/20200729_jimisdone/</link><pubDate>Wed, 29 Jul 2026 00:00:00 +0000</pubDate><guid>https://msmbrc.github.io/posts/20200729_jimisdone/</guid><description>&lt;p&gt;&lt;img src="https://msmbrc.github.io/uploads/20260729.webp" alt=""&gt;&lt;/p&gt;
+&lt;p&gt;Jim’s finished. The more I look at it the more flaws I see, but it doesn’t matter — it’s already time to think about the next drawing: the mighty pirate.&lt;/p&gt;</description></item><item><title>Fat people &amp; hands</title><link>https://msmbrc.github.io/posts/20200707_fatpeopleandhands/</link><pubDate>Tue, 07 Jul 2026 00:00:00 +0000</pubDate><guid>https://msmbrc.github.io/posts/20200707_fatpeopleandhands/</guid><description>&lt;p&gt;&lt;img src="https://msmbrc.github.io/uploads/20260707.webp" alt=""&gt;&lt;/p&gt;
+&lt;p&gt;I squeezed in some drawing practice during a work-from-home break, focusing on fat people and hands to push myself out of my comfort zone with less standard proportions. I learned how important the double chin is, and how key it is to nail the basic geometric shapes inside the subject first.&lt;/p&gt;</description></item><item><title>Progress on my Jim Carrey portrait</title><link>https://msmbrc.github.io/posts/20200706_progressonmyjimcarrey/</link><pubDate>Mon, 06 Jul 2026 00:00:00 +0000</pubDate><guid>https://msmbrc.github.io/posts/20200706_progressonmyjimcarrey/</guid><description>&lt;p&gt;&lt;img src="https://msmbrc.github.io/uploads/20260706.webp" alt=""&gt;&lt;/p&gt;
+&lt;p&gt;Second class. I reworked the Jim Carrey — fixing the too-close eyes and the too-narrow lower face — then finally started shading, building from a light base up to darker layers. I&amp;rsquo;ll probably finish it next class, but that&amp;rsquo;s at least two frustrating weeks away.&lt;/p&gt;</description></item><item><title>What a grind</title><link>https://msmbrc.github.io/posts/20200702_whatagrind/</link><pubDate>Thu, 02 Jul 2026 00:00:00 +0000</pubDate><guid>https://msmbrc.github.io/posts/20200702_whatagrind/</guid><description>&lt;p&gt;&lt;img src="https://msmbrc.github.io/uploads/20260703.webp" alt=""&gt;&lt;/p&gt;
+&lt;p&gt;Since I said I wanted to get back to properly mastering drawing like I used to, I signed up for a drawing course and decided to start with a black-and-white copy of a face. God, what a grind.&lt;/p&gt;</description></item></channel></rss>
