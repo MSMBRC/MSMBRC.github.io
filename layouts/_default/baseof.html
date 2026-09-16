@@ -123,13 +123,6 @@
   body.grid-view .article-list .article-content p:not(:has(img)) { display: none; }
   body.grid-view .article-content p { margin-bottom: 0; }
 
-  @media (max-width: 900px) {
-    body.grid-view .article-list { grid-template-columns: repeat(2, 1fr); }
-  }
-  @media (max-width: 600px) {
-    body.grid-view .article-list { grid-template-columns: 1fr; }
-  }
-
   .article-date {
     font-family: var(--font-mono); font-size: 12px; letter-spacing: 0.04em;
     text-transform: uppercase; color: var(--text-tertiary); display: block; margin-bottom: 10px;
@@ -177,7 +170,7 @@
     background: var(--bg); border-radius: 8px; overflow: hidden;
   }
   .lightbox-media { flex: 1 1 60%; min-width: 0; background: #000; display: flex; align-items: center; justify-content: center; }
-  .lightbox-media img { max-width: 100%; max-height: 90vh; width: auto; height: auto; object-fit: contain; }
+  .lightbox-media img { max-width: 100%; max-height: 90vh; width: auto; height: auto; object-fit: contain; cursor: zoom-out; }
   .lightbox-meta { flex: 1 1 40%; padding: 32px; overflow-y: auto; color: var(--text-primary); }
   .lightbox-meta .article-date { margin-bottom: 12px; }
   .lightbox-meta .article-title { font-size: 18px; margin-bottom: 16px; }
@@ -296,7 +289,7 @@
   };
 
   lightbox.addEventListener('click', (e) => {
-    if (e.target === lightbox) closeLightbox();
+    if (e.target === lightbox || e.target === lightboxImg) closeLightbox();
   });
 
   document.addEventListener('keydown', (e) => {
