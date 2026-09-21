@@ -4,7 +4,7 @@ title = "MSMBRC"
 paginate = 10
 
 [params]
-  description = "My journey back to drawing like I used to, before I turn 40 (April 2027)."
+  description = "My journey back to drawing like I used to, before I turn 40."
 
 [markup.goldmark.renderer]
   unsafe = true

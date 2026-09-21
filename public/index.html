@@ -21,7 +21,7 @@
     --font-mono: 'Fraunces', ui-monospace, monospace;
     --max-width: 500px;
     --gutter: clamp(12px, 4vw, 16px);
-    --nav-h: 78px;
+    --nav-h: 84px;
   }
 
   html[data-theme="light"] {
@@ -73,7 +73,7 @@
   .topnav {
     position: fixed; top: 0; left: 0; right: 0; z-index: 50;
     min-height: var(--nav-h); background: var(--bg);
-    padding: 10px var(--gutter);
+    padding: 16px var(--gutter);
     display: flex; align-items: flex-start; justify-content: space-between; gap: 16px;
     font-family: var(--font-display); font-weight: 500; font-size: 16px;
   }
@@ -102,10 +102,11 @@
   body.grid-view .view-toggle .icon-list { display: none; }
   body.grid-view .view-toggle .icon-grid { display: block; }
 
-  main { padding-top: 40px; padding-bottom: 40px; }
+  main { padding-bottom: 40px; }
 
-  .article-list { list-style: none; border-top: 1px solid var(--border); }
+  .article-list { list-style: none; }
   .article-item { padding: 40px 0; border-bottom: 1px solid var(--border); }
+  .article-item:first-child {padding-top: 24px}
 
    
   body.grid-view .wrap { max-width: 1120px; padding-left: 0; padding-right: 0; }
@@ -162,7 +163,7 @@
   .page-btn.arrow { font-size: 16px; }
   span.page-btn[aria-disabled="true"] { color: var(--border); }
 
-  footer.site { border-top: 1px solid var(--border); padding: 28px 0 64px; font-size: 13px; color: var(--text-tertiary); display: flex; justify-content: space-between; }
+  footer.site { border-top: 1px solid var(--border); padding: 28px var(--gutter) 64px; font-size: 13px; color: var(--text-tertiary); display: flex; justify-content: space-between; }
   footer.site a:hover { color: var(--text-primary); }
 
   .lightbox {
@@ -205,7 +206,7 @@
   }
 
   @media (max-width: 600px) {
-    :root { --nav-h: 92px; }
+    :root { --nav-h: 103px; }
     .article-title { font-size: 19px; }
   }
 </style>
@@ -215,7 +216,7 @@
 <nav class="topnav">
   <span class="logo">
     <a href="/">MSMBRC</a>
-    <span class="tagline">My journey back to drawing like I used to, before I turn 40 (April 2027).</span>
+    <span class="tagline">My journey back to drawing like I used to, before I turn 40.</span>
   </span>
   <span class="nav-actions">
     
@@ -312,7 +313,6 @@
 
   <footer class="site">
     <span>© 2026 MSMBRC</span>
-    <a href="/index.xml">RSS</a>
   </footer>
 </div>
 
@@ -442,6 +442,26 @@
     if (e.key === 'ArrowLeft') showImage(currentIndex - 1);
     if (e.key === 'ArrowRight') showImage(currentIndex + 1);
   });
+
+  const lightboxMedia = document.querySelector('.lightbox-media');
+  let touchStartX = 0;
+  let touchStartY = 0;
+
+  lightboxMedia.addEventListener('touchstart', (e) => {
+    touchStartX = e.changedTouches[0].screenX;
+    touchStartY = e.changedTouches[0].screenY;
+  }, { passive: true });
+
+  lightboxMedia.addEventListener('touchend', (e) => {
+    if (currentImages.length <= 1) return;
+    const deltaX = e.changedTouches[0].screenX - touchStartX;
+    const deltaY = e.changedTouches[0].screenY - touchStartY;
+    const swipeThreshold = 40;
+    if (Math.abs(deltaX) > swipeThreshold && Math.abs(deltaX) > Math.abs(deltaY)) {
+      if (deltaX < 0) showImage(currentIndex + 1);
+      else showImage(currentIndex - 1);
+    }
+  }, { passive: true });
 </script>
 
 </body>
