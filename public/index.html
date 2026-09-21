@@ -67,7 +67,7 @@
   ::selection { background: var(--accent); color: var(--accent-text); }
   :focus-visible { outline: 2px solid var(--focus-ring); outline-offset: 3px; border-radius: 2px; }
 
-  .wrap { max-width: var(--max-width); margin: 0 auto; padding: 0 24px; }
+  .wrap { max-width: var(--max-width); margin: 0 auto; padding: 0 var(--gutter); }
 
    
   .topnav {
@@ -106,10 +106,10 @@
 
   .article-list { list-style: none; }
   .article-item { padding: 40px 0; border-bottom: 1px solid var(--border); }
-  .article-item:first-child {padding-top: 24px}
+  .article-item:first-child {padding-top: 0}
 
    
-  body.grid-view .wrap { max-width: 1120px; padding-left: 0; padding-right: 0; }
+  body.grid-view .wrap { max-width: 1220px; padding-left: 0; padding-right: 0; }
   body.grid-view .article-list {
     display: grid; grid-template-columns: repeat(3, 1fr); gap: 1px;
     border-top: none;

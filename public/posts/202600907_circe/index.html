@@ -20,7 +20,7 @@
     --font-mono: 'Fraunces', ui-monospace, monospace;
     --max-width: 500px;
     --gutter: clamp(12px, 4vw, 16px);
-    --nav-h: 78px;
+    --nav-h: 84px;
   }
 
   html[data-theme="light"] {
@@ -205,7 +205,7 @@
   }
 
   @media (max-width: 600px) {
-    :root { --nav-h: 98px; }
+    :root { --nav-h: 103px; }
     .article-title { font-size: 19px; }
   }
 </style>
@@ -242,7 +242,6 @@
 
   <footer class="site">
     <span>© 2026 MSMBRC</span>
-    <a href="/index.xml">RSS</a>
   </footer>
 </div>
 
@@ -372,6 +371,26 @@
     if (e.key === 'ArrowLeft') showImage(currentIndex - 1);
     if (e.key === 'ArrowRight') showImage(currentIndex + 1);
   });
+
+  const lightboxMedia = document.querySelector('.lightbox-media');
+  let touchStartX = 0;
+  let touchStartY = 0;
+
+  lightboxMedia.addEventListener('touchstart', (e) => {
+    touchStartX = e.changedTouches[0].screenX;
+    touchStartY = e.changedTouches[0].screenY;
+  }, { passive: true });
+
+  lightboxMedia.addEventListener('touchend', (e) => {
+    if (currentImages.length <= 1) return;
+    const deltaX = e.changedTouches[0].screenX - touchStartX;
+    const deltaY = e.changedTouches[0].screenY - touchStartY;
+    const swipeThreshold = 40;
+    if (Math.abs(deltaX) > swipeThreshold && Math.abs(deltaX) > Math.abs(deltaY)) {
+      if (deltaX < 0) showImage(currentIndex + 1);
+      else showImage(currentIndex - 1);
+    }
+  }, { passive: true });
 </script>
 
 </body>
