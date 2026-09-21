@@ -83,8 +83,8 @@
     font-family: var(--font-body); font-weight: 400; font-size: 13px;
     color: var(--text-secondary); letter-spacing: -0.005em;
   }
-  .topnav .theme-toggle, .topnav .view-toggle { flex-shrink: 0; margin-top: 2px; }
-  .topnav .nav-actions { display: flex; align-items: center; gap: 8px; }
+  .topnav .theme-toggle, .topnav .view-toggle { flex-shrink: 0; }
+  .topnav .nav-actions { display: flex; align-items: center; gap: 8px; align-self: center; }
 
   .theme-toggle, .view-toggle {
     width: 30px; height: 30px; border-radius: 50%;
@@ -108,7 +108,7 @@
   .article-item:first-child {padding-top: 0}
 
   /* ---------- Vista a griglia ---------- */
-  body.grid-view .wrap { max-width: 1220px; padding-left: 0; padding-right: 0; }
+  body.grid-view .wrap { max-width: 1920px; padding-left: 0; padding-right: 0; }
   body.grid-view .article-list {
     display: grid; grid-template-columns: repeat(3, 1fr); gap: 1px;
     border-top: none;
