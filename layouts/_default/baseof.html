@@ -269,7 +269,7 @@
 
   const viewToggle = document.getElementById('viewToggle');
   if (viewToggle) {
-    if (localStorage.getItem('viewMode') !== 'list') {
+    if (localStorage.getItem('viewMode') === 'grid') {
       document.body.classList.add('grid-view');
     }
     viewToggle.addEventListener('click', () => {
